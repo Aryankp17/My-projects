@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    background: #edeaff;
+}
+.stopwatch{
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    padding: 30px 0;
+    margin: 200px auto 0;
+    background: linear-gradient(#e66465, #9198e5);
+    background-size: cover;
+    border-radius: 2rem;
+    color: aliceblue;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    background-position: center;
+}
+.controltimer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  20px 30px;
+    font-weight: 200;
+    padding: 20px;
+}
+.controltimer img{
+    width: 80px;
+    margin: 10px 20px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+.controltimer img:nth-child(2){
+    width: 100px;
+}
+.controltimer img:nth-child(1){
+    width: 70px;
+}
+.controltimer img:nth-child(3){
+    width: 70px;
+}
+
